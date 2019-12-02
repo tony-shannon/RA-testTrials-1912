@@ -33,14 +33,15 @@ const App = () => (
       edit={EditGuesser}
       show={ShowGuesser}
     />
-
     <Resource
       name="users"
-      list={ListGuesser}
+      list={UserList}
       edit={EditGuesser}
       show={ShowGuesser}
     />
-    <Resource name="users" list={UserList} icon={UserIcon} />
+
+    
+   
   </Admin>
 );
 
