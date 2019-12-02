@@ -8,7 +8,7 @@ import {
   ShowGuesser
 } from "react-admin";
 import jsonServerProvider from "ra-data-json-server";
-import { UserList } from "./users";
+import UserList from "./users";
 import { PostList, PostEdit, PostCreate } from "./posts";
 
 import PostIcon from "@material-ui/icons/Book";
@@ -37,7 +37,7 @@ const App = () => (
       name="users"
       list={UserList}
       edit={EditGuesser}
-      show={ShowGuesser}
+    //  show={ShowGuesser}
     />
 
     
