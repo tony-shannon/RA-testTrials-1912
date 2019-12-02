@@ -36,11 +36,9 @@ const App = () => (
 
     <Resource
       name="users"
-      list={PostList}
-      edit={PostEdit}
-      create={PostCreate}
+      list={ListGuesser}
+      edit={EditGuesser}
       show={ShowGuesser}
-      icon={PostIcon}
     />
     <Resource name="users" list={UserList} icon={UserIcon} />
   </Admin>
